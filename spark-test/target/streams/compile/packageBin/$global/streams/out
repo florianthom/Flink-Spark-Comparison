@@ -1,0 +1,25 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/spark-test_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/StreamingExample$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/StreamingExample$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Processing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/Processing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/StreamingExample$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/StreamingExample$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/StreamingExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/StreamingExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Processing$$anonfun$extractAttributes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/Processing$$anonfun$extractAttributes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Processing$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/Processing$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Processing$$anonfun$vectorizeAttributes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/Processing$$anonfun$vectorizeAttributes$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Processing$$anonfun$extractAttributes$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/Processing$$anonfun$extractAttributes$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/StreamingExample$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/StreamingExample$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/StreamingExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/user/workspace/Flink-Spark-Comparison/spark-test/target/scala-2.11/classes/example/StreamingExample.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

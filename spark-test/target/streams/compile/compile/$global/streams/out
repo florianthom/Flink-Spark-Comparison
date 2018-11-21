@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/user/workspace/Flink-Spark-Comparison/spark-test/src/main/scala/example/StreamingExample.scala:8:8: not found: object co[0m
+[0m[[0m[31merror[0m] [0m[0mimport co.theasi.plotly[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/workspace/Flink-Spark-Comparison/spark-test/src/main/scala/example/StreamingExample.scala:40:14: not found: value Plot[0m
+[0m[[0m[31merror[0m] [0m[0m  val plot = Plot()[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
