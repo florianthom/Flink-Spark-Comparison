@@ -1,5 +1,5 @@
 <projectDescription>
-  <name>Flink-Test</name>
+  <name>flink-test</name>
   <buildSpec>
     <buildCommand>
       <name>org.scala-ide.sdt.core.scalabuilder</name>
