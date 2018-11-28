@@ -702,6 +702,11 @@
       <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/com.github.rwl/jtransforms/docs/jtransforms-2.4.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
+  <classpathentry sourcepath="/home/user/.ivy2/cache/junit/junit/srcs/junit-4.8.2-sources.jar" kind="lib" path="/home/user/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/junit/junit/docs/junit-4.8.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
   <classpathentry sourcepath="/home/user/.ivy2/cache/org.spire-math/spire_2.11/srcs/spire_2.11-0.13.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.spire-math/spire_2.11/jars/spire_2.11-0.13.0.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.spire-math/spire_2.11/docs/spire_2.11-0.13.0-javadoc.jar!/"/>
@@ -742,101 +747,30 @@
       <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.6-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.vegas-viz/vegas_2.11/srcs/vegas_2.11-0.3.11-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.vegas-viz/vegas_2.11/jars/vegas_2.11-0.3.11.jar">
+  <classpathentry sourcepath="/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/srcs/breeze-viz_2.11-0.13.2-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/jars/breeze-viz_2.11-0.13.2.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.vegas-viz/vegas_2.11/docs/vegas_2.11-0.3.11-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/docs/breeze-viz_2.11-0.13.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.vegas-viz/vegas-macros_2.11/srcs/vegas-macros_2.11-0.3.11-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.vegas-viz/vegas-macros_2.11/jars/vegas-macros_2.11-0.3.11.jar">
+  <classpathentry sourcepath="/home/user/.ivy2/cache/jfree/jcommon/srcs/jcommon-1.0.16-sources.jar" kind="lib" path="/home/user/.ivy2/cache/jfree/jcommon/jars/jcommon-1.0.16.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.vegas-viz/vegas-macros_2.11/docs/vegas-macros_2.11-0.3.11-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/jfree/jcommon/docs/jcommon-1.0.16-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/com.github.julien-truffaut/monocle-core_2.11/srcs/monocle-core_2.11-1.1.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/com.github.julien-truffaut/monocle-core_2.11/jars/monocle-core_2.11-1.1.0.jar">
+  <classpathentry kind="lib" path="/home/user/.ivy2/cache/jfree/jfreechart/jars/jfreechart-1.0.13.jar"/>
+  <classpathentry kind="lib" path="/home/user/.ivy2/cache/org.apache.xmlgraphics/xmlgraphics-commons/jars/xmlgraphics-commons-1.3.1.jar"/>
+  <classpathentry sourcepath="/home/user/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.0.4-sources.jar" kind="lib" path="/home/user/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/com.github.julien-truffaut/monocle-core_2.11/docs/monocle-core_2.11-1.1.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.0.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.1.1-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.1.1.jar">
+  <classpathentry sourcepath="/home/user/.ivy2/cache/com.lowagie/itext/srcs/itext-2.1.5-sources.jar" kind="lib" path="/home/user/.ivy2/cache/com.lowagie/itext/jars/itext-2.1.5.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.scalaz/scalaz-core_2.11/docs/scalaz-core_2.11-7.1.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/com.lowagie/itext/docs/itext-2.1.5-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/io.circe/circe-core_2.11/srcs/circe-core_2.11-0.7.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/io.circe/circe-core_2.11/jars/circe-core_2.11-0.7.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/io.circe/circe-core_2.11/docs/circe-core_2.11-0.7.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/io.circe/circe-numbers_2.11/srcs/circe-numbers_2.11-0.7.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/io.circe/circe-numbers_2.11/jars/circe-numbers_2.11-0.7.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/io.circe/circe-numbers_2.11/docs/circe-numbers_2.11-0.7.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.typelevel/cats-core_2.11/srcs/cats-core_2.11-0.9.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.typelevel/cats-core_2.11/jars/cats-core_2.11-0.9.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.typelevel/cats-core_2.11/docs/cats-core_2.11-0.9.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.typelevel/cats-macros_2.11/srcs/cats-macros_2.11-0.9.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.typelevel/cats-macros_2.11/jars/cats-macros_2.11-0.9.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.typelevel/cats-macros_2.11/docs/cats-macros_2.11-0.9.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/srcs/simulacrum_2.11-0.10.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/jars/simulacrum_2.11-0.10.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/docs/simulacrum_2.11-0.10.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.typelevel/cats-kernel_2.11/srcs/cats-kernel_2.11-0.9.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.typelevel/cats-kernel_2.11/jars/cats-kernel_2.11-0.9.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.typelevel/cats-kernel_2.11/docs/cats-kernel_2.11-0.9.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/io.circe/circe-generic_2.11/srcs/circe-generic_2.11-0.7.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/io.circe/circe-generic_2.11/jars/circe-generic_2.11-0.7.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/io.circe/circe-generic_2.11/docs/circe-generic_2.11-0.7.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/io.circe/circe-parser_2.11/srcs/circe-parser_2.11-0.7.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/io.circe/circe-parser_2.11/jars/circe-parser_2.11-0.7.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/io.circe/circe-parser_2.11/docs/circe-parser_2.11-0.7.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/io.circe/circe-jawn_2.11/srcs/circe-jawn_2.11-0.7.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/io.circe/circe-jawn_2.11/jars/circe-jawn_2.11-0.7.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/io.circe/circe-jawn_2.11/docs/circe-jawn_2.11-0.7.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.spire-math/jawn-parser_2.11/srcs/jawn-parser_2.11-0.10.4-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.spire-math/jawn-parser_2.11/jars/jawn-parser_2.11-0.10.4.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.spire-math/jawn-parser_2.11/docs/jawn-parser_2.11-0.10.4-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/com.github.julien-truffaut/monocle-macro_2.11/srcs/monocle-macro_2.11-1.1.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/com.github.julien-truffaut/monocle-macro_2.11/jars/monocle-macro_2.11-1.1.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/com.github.julien-truffaut/monocle-macro_2.11/docs/monocle-macro_2.11-1.1.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.scalafx/scalafx_2.11/srcs/scalafx_2.11-8.0.92-R10-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.scalafx/scalafx_2.11/jars/scalafx_2.11-8.0.92-R10.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.scalafx/scalafx_2.11/docs/scalafx_2.11-8.0.92-R10-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.webjars.bower/vega-lite/srcs/vega-lite-1.2.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.webjars.bower/vega-lite/jars/vega-lite-1.2.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.webjars.bower/vega-lite/docs/vega-lite-1.2.0-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.webjars.bower/vega/srcs/vega-2.6.5-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.webjars.bower/vega/jars/vega-2.6.5.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.webjars.bower/vega/docs/vega-2.6.5-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.webjars.bower/d3/srcs/d3-3.5.17-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.webjars.bower/d3/jars/d3-3.5.17.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.webjars.bower/d3/docs/d3-3.5.17-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
+  <classpathentry kind="lib" path="/home/user/.ivy2/cache/bouncycastle/bcmail-jdk14/jars/bcmail-jdk14-138.jar"/>
+  <classpathentry kind="lib" path="/home/user/.ivy2/cache/bouncycastle/bcprov-jdk14/jars/bcprov-jdk14-138.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>

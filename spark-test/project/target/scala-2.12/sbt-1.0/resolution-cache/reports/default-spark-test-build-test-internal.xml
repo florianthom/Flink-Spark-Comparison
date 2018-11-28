@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181121160247"/>
+		date="20181127233758"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="1.2.6" status="release" pubdate="20181017082438" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
@@ -1296,12 +1296,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbteclipse" name="sbteclipse-plugin">
-			<revision name="5.2.2" status="release" pubdate="20170905085055" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="0">
+			<revision name="5.2.2" status="release" pubdate="20170905085055" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1670" time="1014" location="/home/user/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-5.2.2.xml" searched="true" original-local-location="/home/user/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-5.2.2.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.12/sbt_1.0/5.2.2/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="1670" time="0" location="/home/user/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-5.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.12/sbt_1.0/5.2.2/ivys/ivy.xml"/>
 				<caller organisation="default" name="spark-test-build" conf="test, compile, provided, test-internal, runtime, optional" rev="5.2.2" rev-constraint-default="5.2.2" rev-constraint-dynamic="5.2.2" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbteclipse-plugin" type="jar" ext="jar" status="successful" details="" size="187999" time="2252" location="/home/user/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-5.2.2.jar">
+					<artifact name="sbteclipse-plugin" type="jar" ext="jar" status="no" details="" size="187999" time="0" location="/home/user/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-5.2.2.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.12/sbt_1.0/5.2.2/jars/sbteclipse-plugin.jar"/>
 					</artifact>
 				</artifacts>
