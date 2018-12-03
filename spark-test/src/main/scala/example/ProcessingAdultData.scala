@@ -6,7 +6,7 @@ package example
 
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
 
-object Processing
+object ProcessingAdultData
 {
   def extractAttributes(line:String, position:List[Int]): List[String] = line.split(", ")
     .zipWithIndex

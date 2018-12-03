@@ -1,0 +1,13 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Sun Dec  2 14:29:01 2018
+#
+# COLUMN fpl_name:       Planet Name
+# COLUMN fpl_orbper:     Orbital Period [days]
+# COLUMN fpl_bmasse:     Planet Mass or M*sin(i) [Earth mass]
+# COLUMN fpl_rade:       Planet Radius [Earth radii]
+# COLUMN fpl_dens:       Planet Density [g/cm**3]
+# COLUMN fst_dist:       Distance [pc]
+# COLUMN fst_mass:       Stellar Mass [Solar mass]
+# COLUMN fst_rad:        Stellar Radius [Solar radii]
+# COLUMN fst_age:        Stellar Age [Gyr]
+#

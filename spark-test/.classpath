@@ -702,11 +702,6 @@
       <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/com.github.rwl/jtransforms/docs/jtransforms-2.4.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/junit/junit/srcs/junit-4.8.2-sources.jar" kind="lib" path="/home/user/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/junit/junit/docs/junit-4.8.2-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
   <classpathentry sourcepath="/home/user/.ivy2/cache/org.spire-math/spire_2.11/srcs/spire_2.11-0.13.0-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.spire-math/spire_2.11/jars/spire_2.11-0.13.0.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.spire-math/spire_2.11/docs/spire_2.11-0.13.0-javadoc.jar!/"/>
@@ -747,30 +742,11 @@
       <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.6-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/srcs/breeze-viz_2.11-0.13.2-sources.jar" kind="lib" path="/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/jars/breeze-viz_2.11-0.13.2.jar">
+  <classpathentry sourcepath="/home/user/.ivy2/cache/com.github.tototoshi/scala-csv_2.11/srcs/scala-csv_2.11-1.3.5-sources.jar" kind="lib" path="/home/user/.ivy2/cache/com.github.tototoshi/scala-csv_2.11/jars/scala-csv_2.11-1.3.5.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/docs/breeze-viz_2.11-0.13.2-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/com.github.tototoshi/scala-csv_2.11/docs/scala-csv_2.11-1.3.5-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/jfree/jcommon/srcs/jcommon-1.0.16-sources.jar" kind="lib" path="/home/user/.ivy2/cache/jfree/jcommon/jars/jcommon-1.0.16.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/jfree/jcommon/docs/jcommon-1.0.16-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="lib" path="/home/user/.ivy2/cache/jfree/jfreechart/jars/jfreechart-1.0.13.jar"/>
-  <classpathentry kind="lib" path="/home/user/.ivy2/cache/org.apache.xmlgraphics/xmlgraphics-commons/jars/xmlgraphics-commons-1.3.1.jar"/>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.0.4-sources.jar" kind="lib" path="/home/user/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.0.4-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/user/.ivy2/cache/com.lowagie/itext/srcs/itext-2.1.5-sources.jar" kind="lib" path="/home/user/.ivy2/cache/com.lowagie/itext/jars/itext-2.1.5.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/user/.ivy2/cache/com.lowagie/itext/docs/itext-2.1.5-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="lib" path="/home/user/.ivy2/cache/bouncycastle/bcmail-jdk14/jars/bcmail-jdk14-138.jar"/>
-  <classpathentry kind="lib" path="/home/user/.ivy2/cache/bouncycastle/bcprov-jdk14/jars/bcprov-jdk14-138.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>

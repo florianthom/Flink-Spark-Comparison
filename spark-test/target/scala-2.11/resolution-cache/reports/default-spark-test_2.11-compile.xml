@@ -7,95 +7,22 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181127234018"/>
+		date="20181202224946"/>
 	<dependencies>
-		<module organisation="org.scalanlp" name="breeze-viz_2.11">
-			<revision name="0.13.2" status="release" pubdate="20170801060751" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="179">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2434" time="115" location="/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/ivy-0.13.2.xml" searched="true" original-local-location="/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/ivy-0.13.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-viz_2.11/0.13.2/breeze-viz_2.11-0.13.2.pom"/>
-				<caller organisation="default" name="spark-test_2.11" conf="compile" rev="0.13.2" rev-constraint-default="0.13.2" rev-constraint-dynamic="0.13.2" callerrev="0.1"/>
+		<module organisation="com.github.tototoshi" name="scala-csv_2.11">
+			<revision name="1.3.5" status="release" pubdate="20170816170141" resolver="public" artresolver="public" homepage="http://github.com/tototoshi/scala-csv" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="178">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2096" time="134" location="/home/user/.ivy2/cache/com.github.tototoshi/scala-csv_2.11/ivy-1.3.5.xml" searched="true" original-local-location="/home/user/.ivy2/cache/com.github.tototoshi/scala-csv_2.11/ivy-1.3.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.11/1.3.5/scala-csv_2.11-1.3.5.pom"/>
+				<caller organisation="default" name="spark-test_2.11" conf="compile" rev="1.3.5" rev-constraint-default="1.3.5" rev-constraint-dynamic="1.3.5" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="breeze-viz_2.11" type="jar" ext="jar" status="successful" details="" size="192829" time="756" location="/home/user/.ivy2/cache/org.scalanlp/breeze-viz_2.11/jars/breeze-viz_2.11-0.13.2.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-viz_2.11/0.13.2/breeze-viz_2.11-0.13.2.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.lowagie" name="itext">
-			<revision name="2.1.5" status="release" pubdate="20090420235248" resolver="public" artresolver="public" homepage="http://www.lowagie.com/iText/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="184">
-				<license name="Mozilla Public License" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
-				<metadata-artifact status="successful" details="" size="2913" time="110" location="/home/user/.ivy2/cache/com.lowagie/itext/ivy-2.1.5.xml" searched="true" original-local-location="/home/user/.ivy2/cache/com.lowagie/itext/ivy-2.1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lowagie/itext/2.1.5/itext-2.1.5.pom"/>
-				<caller organisation="org.scalanlp" name="breeze-viz_2.11" conf="default, compile, runtime, master" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="0.13.2"/>
-				<artifacts>
-					<artifact name="itext" type="jar" ext="jar" status="successful" details="" size="1117661" time="983" location="/home/user/.ivy2/cache/com.lowagie/itext/jars/itext-2.1.5.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lowagie/itext/2.1.5/itext-2.1.5.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="bouncycastle" name="bcprov-jdk14">
-			<revision name="138" status="release" pubdate="20080404190549" resolver="public" artresolver="public" homepage="http://www.bouncycastle.org/java.html" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="186">
-				<license name="Bouncy Castle License" url="http://www.bouncycastle.org/licence.html"/>
-				<metadata-artifact status="successful" details="" size="1044" time="112" location="/home/user/.ivy2/cache/bouncycastle/bcprov-jdk14/ivy-138.xml" searched="true" original-local-location="/home/user/.ivy2/cache/bouncycastle/bcprov-jdk14/ivy-138.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.pom"/>
-				<caller organisation="com.lowagie" name="itext" conf="compile, runtime" rev="138" rev-constraint-default="138" rev-constraint-dynamic="138" callerrev="2.1.5"/>
-				<artifacts>
-					<artifact name="bcprov-jdk14" type="jar" ext="jar" status="successful" details="" size="1551468" time="1252" location="/home/user/.ivy2/cache/bouncycastle/bcprov-jdk14/jars/bcprov-jdk14-138.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="bouncycastle" name="bcmail-jdk14">
-			<revision name="138" status="release" pubdate="20080404180727" resolver="public" artresolver="public" homepage="http://www.bouncycastle.org/java.html" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="185">
-				<license name="Bouncy Castle License" url="http://www.bouncycastle.org/licence.html"/>
-				<metadata-artifact status="successful" details="" size="1018" time="115" location="/home/user/.ivy2/cache/bouncycastle/bcmail-jdk14/ivy-138.xml" searched="true" original-local-location="/home/user/.ivy2/cache/bouncycastle/bcmail-jdk14/ivy-138.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.pom"/>
-				<caller organisation="com.lowagie" name="itext" conf="compile, runtime" rev="138" rev-constraint-default="138" rev-constraint-dynamic="138" callerrev="2.1.5"/>
-				<artifacts>
-					<artifact name="bcmail-jdk14" type="jar" ext="jar" status="successful" details="" size="192035" time="1016" location="/home/user/.ivy2/cache/bouncycastle/bcmail-jdk14/jars/bcmail-jdk14-138.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.xmlgraphics" name="xmlgraphics-commons">
-			<revision name="1.3.1" status="release" pubdate="20080615125535" resolver="public" artresolver="public" homepage="http://xmlgraphics.apache.org/commons/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="182">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3364" time="105" location="/home/user/.ivy2/cache/org.apache.xmlgraphics/xmlgraphics-commons/ivy-1.3.1.xml" searched="true" original-local-location="/home/user/.ivy2/cache/org.apache.xmlgraphics/xmlgraphics-commons/ivy-1.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1.pom"/>
-				<caller organisation="org.scalanlp" name="breeze-viz_2.11" conf="default, compile, runtime, master" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.13.2"/>
-				<artifacts>
-					<artifact name="xmlgraphics-commons" type="jar" ext="jar" status="successful" details="" size="517073" time="1185" location="/home/user/.ivy2/cache/org.apache.xmlgraphics/xmlgraphics-commons/jars/xmlgraphics-commons-1.3.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="jfree" name="jfreechart">
-			<revision name="1.0.13" status="release" pubdate="20090817210744" resolver="public" artresolver="public" homepage="http://www.jfree.org/jfreechart/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="181">
-				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
-				<metadata-artifact status="successful" details="" size="1482" time="103" location="/home/user/.ivy2/cache/jfree/jfreechart/ivy-1.0.13.xml" searched="true" original-local-location="/home/user/.ivy2/cache/jfree/jfreechart/ivy-1.0.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jfree/jfreechart/1.0.13/jfreechart-1.0.13.pom"/>
-				<caller organisation="org.scalanlp" name="breeze-viz_2.11" conf="default, compile, runtime, master" rev="1.0.13" rev-constraint-default="1.0.13" rev-constraint-dynamic="1.0.13" callerrev="0.13.2"/>
-				<artifacts>
-					<artifact name="jfreechart" type="jar" ext="jar" status="successful" details="" size="1425742" time="1191" location="/home/user/.ivy2/cache/jfree/jfreechart/jars/jfreechart-1.0.13.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jfree/jfreechart/1.0.13/jfreechart-1.0.13.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="jfree" name="jcommon">
-			<revision name="1.0.16" status="release" pubdate="20110925012113" resolver="public" artresolver="public" homepage="http://www.jfree.org/jcommon/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="180">
-				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
-				<metadata-artifact status="successful" details="" size="1456" time="110" location="/home/user/.ivy2/cache/jfree/jcommon/ivy-1.0.16.xml" searched="true" original-local-location="/home/user/.ivy2/cache/jfree/jcommon/ivy-1.0.16.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jfree/jcommon/1.0.16/jcommon-1.0.16.pom"/>
-				<caller organisation="jfree" name="jfreechart" conf="compile, runtime" rev="1.0.16" rev-constraint-default="1.0.16" rev-constraint-dynamic="1.0.16" callerrev="1.0.13"/>
-				<caller organisation="org.scalanlp" name="breeze-viz_2.11" conf="default, compile, runtime, master" rev="1.0.16" rev-constraint-default="1.0.16" rev-constraint-dynamic="1.0.16" callerrev="0.13.2"/>
-				<artifacts>
-					<artifact name="jcommon" type="jar" ext="jar" status="successful" details="" size="488686" time="967" location="/home/user/.ivy2/cache/jfree/jcommon/jars/jcommon-1.0.16.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jfree/jcommon/1.0.16/jcommon-1.0.16.jar"/>
+					<artifact name="scala-csv_2.11" type="jar" ext="jar" status="successful" details="" size="53995" time="438" location="/home/user/.ivy2/cache/com.github.tototoshi/scala-csv_2.11/jars/scala-csv_2.11-1.3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.11/1.3.5/scala-csv_2.11-1.3.5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalatest" name="scalatest_2.11">
-			<revision name="3.0.5" status="release" pubdate="20180129095727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="176">
+			<revision name="3.0.5" status="release" pubdate="20180129095727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="175">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="4735" time="0" location="/home/user/.ivy2/cache/org.scalatest/scalatest_2.11/ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.5/scalatest_2.11-3.0.5.pom"/>
 				<caller organisation="default" name="spark-test_2.11" conf="compile" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="0.1"/>
@@ -107,7 +34,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scalactic" name="scalactic_2.11">
-			<revision name="3.0.5" status="release" pubdate="20180129094638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="177">
+			<revision name="3.0.5" status="release" pubdate="20180129094638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="176">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2970" time="0" location="/home/user/.ivy2/cache/org.scalactic/scalactic_2.11/ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.5/scalactic_2.11-3.0.5.pom"/>
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="3.0.5"/>
@@ -156,12 +83,10 @@
 			</revision>
 		</module>
 		<module organisation="org.scalanlp" name="breeze_2.11">
-			<revision name="0.13.2" status="release" pubdate="20170801061016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="164">
+			<revision name="0.13.2" status="release" pubdate="20170801061016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="164">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="4830" time="0" location="/home/user/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.13.2/breeze_2.11-0.13.2.pom"/>
-				<caller organisation="default" name="spark-test_2.11" conf="compile" rev="0.13.2" rev-constraint-default="0.13.2" rev-constraint-dynamic="0.13.2" callerrev="0.1"/>
 				<caller organisation="org.apache.spark" name="spark-mllib_2.11" conf="default, compile, runtime, master" rev="0.13.2" rev-constraint-default="0.13.2" rev-constraint-dynamic="0.13.2" callerrev="2.3.0"/>
-				<caller organisation="org.scalanlp" name="breeze-viz_2.11" conf="default, compile, runtime, master" rev="0.13.2" rev-constraint-default="0.13.2" rev-constraint-dynamic="0.13.2" callerrev="0.13.2"/>
 				<caller organisation="org.apache.spark" name="spark-mllib-local_2.11" conf="compile, runtime" rev="0.13.2" rev-constraint-default="0.13.2" rev-constraint-dynamic="0.13.2" callerrev="2.3.0"/>
 				<artifacts>
 					<artifact name="breeze_2.11" type="jar" ext="jar" status="no" details="" size="15113382" time="0" location="/home/user/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.13.2.jar">
@@ -171,7 +96,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.6" status="release" pubdate="20160920112614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="178">
+			<revision name="1.0.6" status="release" pubdate="20160920112614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="177">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/user/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="2.11.11"/>
@@ -192,7 +117,7 @@
 			</revision>
 		</module>
 		<module organisation="org.spire-math" name="spire_2.11">
-			<revision name="0.13.0" status="release" pubdate="20161129053105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="171">
+			<revision name="0.13.0" status="release" pubdate="20161129053105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="170">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="3059" time="0" location="/home/user/.ivy2/cache/org.spire-math/spire_2.11/ivy-0.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire_2.11/0.13.0/spire_2.11-0.13.0.pom"/>
 				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.13.0" rev-constraint-default="0.13.0" rev-constraint-dynamic="0.13.0" callerrev="0.13.2"/>
@@ -204,7 +129,7 @@
 			</revision>
 		</module>
 		<module organisation="org.spire-math" name="spire-macros_2.11">
-			<revision name="0.13.0" status="release" pubdate="20161129053012" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="172">
+			<revision name="0.13.0" status="release" pubdate="20161129053012" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="171">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="3294" time="0" location="/home/user/.ivy2/cache/org.spire-math/spire-macros_2.11/ivy-0.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.11/0.13.0/spire-macros_2.11-0.13.0.pom"/>
 				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="0.13.0" rev-constraint-default="0.13.0" rev-constraint-dynamic="0.13.0" callerrev="0.13.0"/>
@@ -216,7 +141,7 @@
 			</revision>
 		</module>
 		<module organisation="com.chuusai" name="shapeless_2.11">
-			<revision name="2.3.2" status="release" pubdate="20160818135130" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="174">
+			<revision name="2.3.2" status="release" pubdate="20160818135130" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="173">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3226" time="0" location="/home/user/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2.pom"/>
 				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.13.2"/>
@@ -228,7 +153,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="macro-compat_2.11">
-			<revision name="1.1.1" status="release" pubdate="20160215115037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="175">
+			<revision name="1.1.1" status="release" pubdate="20160215115037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="174">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/user/.ivy2/cache/org.typelevel/macro-compat_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.pom"/>
 				<caller organisation="com.chuusai" name="shapeless_2.11" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.2"/>
@@ -240,7 +165,7 @@
 			</revision>
 		</module>
 		<module organisation="org.typelevel" name="machinist_2.11">
-			<revision name="0.6.1" status="release" pubdate="20161029171411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="173">
+			<revision name="0.6.1" status="release" pubdate="20161029171411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="172">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="2785" time="0" location="/home/user/.ivy2/cache/org.typelevel/machinist_2.11/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.pom"/>
 				<caller organisation="org.spire-math" name="spire-macros_2.11" conf="compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.13.0"/>
@@ -817,7 +742,6 @@
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="3.0.5"/>
 				<caller organisation="org.scalactic" name="scalactic_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="3.0.5"/>
 				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.13.2"/>
-				<caller organisation="org.scalanlp" name="breeze-viz_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.13.2"/>
 				<caller organisation="org.typelevel" name="machinist_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.6.1"/>
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="2.6.7.1"/>
 				<artifacts>
@@ -1402,18 +1326,11 @@
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="2.3.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="2.6.5"/>
 				<caller organisation="org.apache.spark" name="spark-mllib_2.11" conf="default, compile, runtime, master" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="2.3.0"/>
-				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.13.2"/>
 				<caller organisation="org.apache.spark" name="spark-mllib-local_2.11" conf="compile, runtime" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="2.3.0"/>
 				<artifacts>
 					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="2035066" time="0" location="/home/user/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.4.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-			<revision name="3.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<evicted-by rev="3.4.1"/>
-				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.13.2"/>
-				<artifacts>
 				</artifacts>
 			</revision>
 			<revision name="3.1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="runtime(*), master(compile), compile(*)" position="-1">
@@ -2510,18 +2427,11 @@
 				<metadata-artifact status="no" details="" size="8457" time="0" location="/home/user/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-hdfs" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.6.5"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.6.5"/>
-				<caller organisation="org.apache.xmlgraphics" name="xmlgraphics-commons" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="1.3.1"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-common" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.6.5"/>
 				<artifacts>
 					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/home/user/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-			<revision name="1.3.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<evicted-by rev="2.4"/>
-				<caller organisation="org.apache.xmlgraphics" name="xmlgraphics-commons" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="1.3.1"/>
-				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
@@ -2533,18 +2443,6 @@
 				<artifacts>
 					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="305001" time="0" location="/home/user/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.0.4" status="release" pubdate="20051108231641" resolver="public" artresolver="public" homepage="http://jakarta.apache.org/commons/logging/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="183">
-				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
-				<metadata-artifact status="successful" details="" size="5264" time="102" location="/home/user/.ivy2/cache/commons-logging/commons-logging/ivy-1.0.4.xml" searched="true" original-local-location="/home/user/.ivy2/cache/commons-logging/commons-logging/ivy-1.0.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom"/>
-				<caller organisation="org.apache.xmlgraphics" name="xmlgraphics-commons" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.3.1"/>
-				<artifacts>
-					<artifact name="commons-logging" type="jar" ext="jar" status="successful" details="" size="38015" time="670" location="/home/user/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2676,18 +2574,6 @@
 				<artifacts>
 					<artifact name="kryo-shaded" type="bundle" ext="jar" status="no" details="" size="358390" time="0" location="/home/user/.ivy2/cache/com.esotericsoftware/kryo-shaded/bundles/kryo-shaded-3.0.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/3.0.3/kryo-shaded-3.0.3.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="junit" name="junit">
-			<revision name="4.8.2" status="release" pubdate="20101005105127" resolver="public" artresolver="public" homepage="http://junit.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="170">
-				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1482" time="111" location="/home/user/.ivy2/cache/junit/junit/ivy-4.8.2.xml" searched="true" original-local-location="/home/user/.ivy2/cache/junit/junit/ivy-4.8.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom"/>
-				<caller organisation="com.github.rwl" name="jtransforms" conf="compile, runtime" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="2.4.0"/>
-				<artifacts>
-					<artifact name="junit" type="jar" ext="jar" status="successful" details="" size="237344" time="823" location="/home/user/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2876,7 +2762,7 @@
 				<caller organisation="org.spire-math" name="spire_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.13.0"/>
 				<caller organisation="org.scalactic" name="scalactic_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="3.0.5"/>
 				<caller organisation="org.scalanlp" name="breeze-macros_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.13.2"/>
-				<caller organisation="org.scalanlp" name="breeze-viz_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.13.2"/>
+				<caller organisation="com.github.tototoshi" name="scala-csv_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.3.5"/>
 				<caller organisation="org.typelevel" name="machinist_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.6.1"/>
 				<caller organisation="org.apache.spark" name="spark-tags_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="2.3.0"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="2.11.11"/>
