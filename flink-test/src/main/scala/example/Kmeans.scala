@@ -70,7 +70,7 @@ import scala.collection.JavaConverters._
  */
 object KMeans {
 
-  def main(args: Array[String]) {
+  def legacy_main(args: Array[String]) {
 
     // checking input parameters
     val params: ParameterTool = ParameterTool.fromArgs(args)

@@ -1,2 +1,2 @@
 #!/bin/bash
-nc -l -k 6666
+nc -l -k 9000

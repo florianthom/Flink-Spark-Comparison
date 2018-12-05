@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181123204548"/>
+		date="20181205181703"/>
 	<dependencies>
 		<module organisation="org.apache.flink" name="flink-ml_2.11">
 			<revision name="1.6.0" status="release" pubdate="20180807161619" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="50">

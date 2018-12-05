@@ -2,6 +2,6 @@
 
 while read p; do
   #head -1 ~/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/data/adult.data | netcat 127.0.0.1 6666 
-  echo "$p" | netcat 127.0.0.1 6666
+  echo "$p" | netcat 127.0.0.1 9000
   sleep 0.01
 done </home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/data/adult.data
