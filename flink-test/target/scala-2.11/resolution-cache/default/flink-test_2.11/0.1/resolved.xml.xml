@@ -4,7 +4,7 @@
 		module="flink-test_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20181205181703"
+		publication="20181213035441"
 	>
 		<description>
 		flink-test
@@ -32,9 +32,9 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.11" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.11" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.apache.flink" name="flink-scala_2.11" rev="1.6.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.flink" name="flink-scala_2.11" rev="1.7.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.5" conf="compile->default(compile)"/>
-		<dependency org="org.apache.flink" name="flink-streaming-scala_2.11" rev="1.6.0" conf="compile->default(compile)"/>
-		<dependency org="org.apache.flink" name="flink-ml_2.11" rev="1.6.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.flink" name="flink-streaming-scala_2.11" rev="1.7.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.flink" name="flink-ml_2.11" rev="1.7.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

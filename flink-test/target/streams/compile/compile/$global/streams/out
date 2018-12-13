@@ -1,0 +1,11 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/flink-test/src/main/scala/example/ReadJSONFromFile.scala:33:107: non-variable type argument String in type pattern scala.collection.immutable.Map[String,Any] (the underlying of Map[String,Any]) is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val result : DataStream[Map[String,Any]] = text.map(line => JSON.parseFull(line) match {case Some(x:Map[String,Any]) => x})[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/flink-test/src/main/scala/example/ReadJSONFromFile.scala:37:47: not found: value DataStreamUtils[0m
+[0m[[0m[31merror[0m] [0m[0m      val myOutput: Iterator[(String, Int)] = DataStreamUtils.collect(myResult.getJavaStream).asScala[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/flink-test/src/main/scala/example/ReadJSONFromFile.scala:37:71: not found: value myResult[0m
+[0m[[0m[31merror[0m] [0m[0m      val myOutput: Iterator[(String, Int)] = DataStreamUtils.collect(myResult.getJavaStream).asScala[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
