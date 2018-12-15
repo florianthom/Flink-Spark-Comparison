@@ -1,7 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0m/home/user/workspace/Flink-Spark-Comparison/spark-test/src/main/scala/example/EvaluatePlanetData.scala:39:5: illegal start of simple expression[0m
-[0m[[0m[31merror[0m] [0m[0m    ))[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/user/workspace/Flink-Spark-Comparison/spark-test/src/main/scala/example/EvaluatePlanetData.scala:57:3: ')' expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  }[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/workspace/Flink-Spark-Comparison/spark-test/src/main/scala/example/EvaluatePlanetDataStream.scala:79:43: org.apache.spark.rdd.RDD[org.apache.spark.mllib.linalg.Vector] does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    rddVectors.zip(rddPred).map(f => (f._1(0), f._1(1), f._1(2), f._2)).collect().toList[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/workspace/Flink-Spark-Comparison/spark-test/src/main/scala/example/EvaluatePlanetDataStream.scala:79:52: org.apache.spark.rdd.RDD[org.apache.spark.mllib.linalg.Vector] does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    rddVectors.zip(rddPred).map(f => (f._1(0), f._1(1), f._1(2), f._2)).collect().toList[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/user/workspace/Flink-Spark-Comparison/spark-test/src/main/scala/example/EvaluatePlanetDataStream.scala:79:61: org.apache.spark.rdd.RDD[org.apache.spark.mllib.linalg.Vector] does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    rddVectors.zip(rddPred).map(f => (f._1(0), f._1(1), f._1(2), f._2)).collect().toList[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

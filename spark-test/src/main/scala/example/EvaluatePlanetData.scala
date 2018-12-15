@@ -1,5 +1,7 @@
 package example
 
+import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.Row
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.mllib.clustering.{KMeans, KMeansModel}
 import org.apache.spark.mllib.linalg
@@ -15,6 +17,7 @@ object EvaluatePlanetData
     //loc_rowid,fpl_name,fpl_orbper,fpl_bmasse,fpl_rade,fpl_dens,fst_dist,fst_mass,fst_rad,fst_age
     //1,11 Com b,326.03000000,6165.60000,12.100,19.10000,93.37,2.70,19.00,
     val csv = spark.read.format("csv").option("header", "true").load("../data/compositepars_short.csv").rdd
+    
     val data = csv.map(f => (
         if (f.isNullAt(0)) 0 else f.getString(0).toInt,
         if (f.isNullAt(1)) "" else f.getString(1),
@@ -27,9 +30,6 @@ object EvaluatePlanetData
         if (f.isNullAt(8)) 0d else f.getString(8).toDouble,
         if (f.isNullAt(9)) 0d else f.getString(9).toDouble
     ))
-  
-    val a = ProcessingAdultData.degrees
-    val b = ProcessingAdultData.race
     
     val vectors = data
       .map(f => Vectors.dense(f._4, f._5, f._7))
