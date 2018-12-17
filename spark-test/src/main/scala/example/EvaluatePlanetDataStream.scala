@@ -73,7 +73,7 @@ object EvaluatePlanetDataStream
     predictions.foreachRDD(rdd => queuePred += rdd)
     
     ssc.start()
-    ssc.awaitTerminationOrTimeout(20000)
+    ssc.awaitTerminationOrTimeout(30000)
     ssc.stop(false)
     
     val rddVectors = queueVectors.reduce((a, b) => a.union(b))

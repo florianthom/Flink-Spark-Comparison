@@ -21,27 +21,33 @@ object StreamingExample extends App
   val movey = new Thread {
     override def run {
       Thread.sleep(4000)
-      "touch ../data/compositepars_short_nohead.csv".run()
-      "mv ../data/compositepars_short_nohead.csv ../data/streaming/compositepars_moved_short_nohead.csv".run()
+      "touch ../data/compositepars_nohead.csv".run()
+      "mv ../data/compositepars_nohead.csv ../data/streaming/compositepars_moved_nohead.csv".run()
     }
   }
   
   movey.start()
   println("MOVEY STARTED")
   
-  val planetData = EvaluatePlanetDataStream.run(spark)
+  // val planetData = EvaluatePlanetDataStream.run(spark)
   //val adultData = EvaluateAdultData.run(spark)
+  
+  PlanetDataExample.run(spark, "../data/streaming")
 
   sc.stop()
   
+  movey.join()
+  "mv ../data/streaming/compositepars_moved_nohead.csv ../data/compositepars_nohead.csv".run()
+  
+  
+  /*
   ExportData.AsCsv(
     "ClusterPlanetData.csv",
     List("planet_mass", "planet_radius", "distance", "cluster"),
     planetData.map(f => List(f._1.toString(), f._2.toString(), f._3.toString(), f._4.toString()))
   )
-  
-  movey.join()
-  "mv ../data/streaming/compositepars_moved_short_nohead.csv ../data/compositepars_short_nohead.csv".run()
+  * */
+
   
   //ExportData.AsCsv(
   //    "ClusterAdultData.csv",
