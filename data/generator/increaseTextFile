@@ -1,0 +1,13 @@
+#!/bin/bash
+
+COUNTER=0
+rm $3
+while [  $COUNTER -lt $1 ]; do
+	value=$(cat $2)
+	echo "$value" >> $3
+	let COUNTER=COUNTER+1 
+done
+
+# GET THE TEXT OF AN FILE AND REPEATS ITS CONTENT X TIMES AND WRITES THE RESULT TO ANOTHER TEXTFILE 
+# USAGE: test_more incresingNumber textFile nameOfResultTextFile
+#	increasingNumber = how many times should the content in textFile be repeated: 1 means that the output will be the original file
