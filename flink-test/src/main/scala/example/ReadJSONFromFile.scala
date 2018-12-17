@@ -22,7 +22,7 @@ class ReadJSONFromFile {
       //small
       //val text: DataStream[String] = env.readTextFile("/home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/data/cernData/traces_2017-01_03_04", StandardCharsets.UTF_8.name())
       // big
-      val text: DataStream[String] = env.readTextFile("/home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/data/cernData/slide", StandardCharsets.UTF_8.name())
+      val text: DataStream[String] = env.readTextFile("/home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/data/cernData/traces_2017-01_03_04", StandardCharsets.UTF_8.name())
 
       
       // Function to instantly map ALL Values to String
@@ -36,5 +36,5 @@ class ReadJSONFromFile {
       val result2 = result.map(a=>a.get("eventType").get)
       result2.print()
       
-      //env.execute()
+      env.execute()
 }
