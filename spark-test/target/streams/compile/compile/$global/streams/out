@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/user/workspace/Flink-Spark-Comparison/spark-test/src/main/scala/example/WordCountExample.scala:39:18: not found: value result[0m
+[0m[[0m[31merror[0m] [0m[0m    val export = result.collect().toList[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

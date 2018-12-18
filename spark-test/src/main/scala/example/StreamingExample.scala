@@ -21,8 +21,8 @@ object StreamingExample extends App
   val movey = new Thread {
     override def run {
       Thread.sleep(4000)
-      "touch ../data/compositepars_nohead.csv".run()
-      "mv ../data/compositepars_nohead.csv ../data/streaming/compositepars_moved_nohead.csv".run()
+      "touch ../data/lipsum_short.txt".run()
+      "mv ../data/lipsum_short.txt ../data/streaming/lipsum_moved_short.txt".run()
     }
   }
   
@@ -32,12 +32,12 @@ object StreamingExample extends App
   // val planetData = EvaluatePlanetDataStream.run(spark)
   //val adultData = EvaluateAdultData.run(spark)
   
-  PlanetDataExample.run(spark, "../data/streaming")
+  WordCountExample.run(spark, "../data/streaming")
 
   sc.stop()
   
   movey.join()
-  "mv ../data/streaming/compositepars_moved_nohead.csv ../data/compositepars_nohead.csv".run()
+  "mv ../data/streaming/lipsum_moved_short.txt ../data/lipsum_short.txt".run()
   
   
   /*
