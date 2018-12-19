@@ -30,11 +30,15 @@ class ReadJSONFromFile {
       //val result: DataStream[Map[String,String]] = text.map(line => JSON.parseFull(line) match {case Some(x:Map[String,Any]) => x.mapValues(_.toString())})
       //result.print()
       
+            
       
       //Function to convert only needed Fields to Specefic datatype
+      
       val result : DataStream[Map[String,Any]] = text.map(line => JSON.parseFull(line) match {case Some(x:Map[String,Any]) => x})
       val result2 = result.map(a=>a.get("eventType").get)
       result2.print()
       
       env.execute()
 }
+
+case class TestJSON(val check1:String,val check2:String)

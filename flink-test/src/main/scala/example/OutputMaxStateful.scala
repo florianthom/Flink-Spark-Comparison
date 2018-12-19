@@ -10,6 +10,8 @@ class OutputMaxStateful {
     //env.setMaxParallelism()
     val numbers: DataStream[String] = env.socketTextStream("127.0.0.1", 9000, '\n') 
  
+    
+    
     numbers.keyBy(0).max(0)
     //env.execute()
 }

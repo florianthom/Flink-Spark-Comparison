@@ -4,7 +4,7 @@
 		module="flink-test_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20181213035441"
+		publication="20181219020325"
 	>
 		<description>
 		flink-test

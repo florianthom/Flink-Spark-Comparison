@@ -15,11 +15,17 @@ case class WordWithCount(word:String,count:Long)
 class CountWords(){
     val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment  
     //env.setMaxParallelism()
+    
+    
+    
+    
     val text: DataStream[String] = env.socketTextStream("127.0.0.1", 9000, '\n') 
- 
+    text.map(a=>(1,1)).keyBy(0).sum(0).map(b=>b._1).print()
+
+    
+    
     // count number of processed elements
     //text.map(a=>(1,1)).keyBy(0).sum(0).map(b=>b._1).rebalance.print()
-    text.map(a=>(1,1)).keyBy(0).sum(0).map(b=>b._1).print()
 
     
     

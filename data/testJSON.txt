@@ -1,0 +1,12 @@
+{
+  "check1": "check1-okay",
+  "check2": "check2-okay"
+}
+{
+  "check1": "check1-okay",
+  "check2": "check2-okay"
+}
+{
+  "check1": "check1-okay",
+  "check2": "check2-okay"
+}

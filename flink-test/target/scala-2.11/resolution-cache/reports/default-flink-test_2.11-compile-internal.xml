@@ -7,27 +7,27 @@
 		revision="0.1"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181213035441"/>
+		date="20181219020325"/>
 	<dependencies>
 		<module organisation="org.apache.flink" name="flink-ml_2.11">
-			<revision name="1.7.0" status="release" pubdate="20181128232954" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="51">
+			<revision name="1.7.0" status="release" pubdate="20181128232954" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="11714" time="162" location="/home/florian/.ivy2/cache/org.apache.flink/flink-ml_2.11/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-ml_2.11/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-ml_2.11/1.7.0/flink-ml_2.11-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="24782" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-ml_2.11/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-ml_2.11/1.7.0/flink-ml_2.11-1.7.0.pom"/>
 				<caller organisation="default" name="flink-test_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="flink-ml_2.11" type="jar" ext="jar" status="successful" details="" size="1306251" time="2073" location="/home/florian/.ivy2/cache/org.apache.flink/flink-ml_2.11/jars/flink-ml_2.11-1.7.0.jar">
+					<artifact name="flink-ml_2.11" type="jar" ext="jar" status="no" details="" size="1306251" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-ml_2.11/jars/flink-ml_2.11-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-ml_2.11/1.7.0/flink-ml_2.11-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scalanlp" name="breeze_2.11">
-			<revision name="0.13" status="release" pubdate="20170109050844" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+			<revision name="0.13" status="release" pubdate="20170109050844" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="4448" time="81" location="/home/florian/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.13.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.13/breeze_2.11-0.13.pom"/>
+				<metadata-artifact status="no" details="" size="4826" time="0" location="/home/florian/.ivy2/cache/org.scalanlp/breeze_2.11/ivy-0.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.13/breeze_2.11-0.13.pom"/>
 				<caller organisation="org.apache.flink" name="flink-ml_2.11" conf="default, compile, runtime, master" rev="0.13" rev-constraint-default="0.13" rev-constraint-dynamic="0.13" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="breeze_2.11" type="jar" ext="jar" status="successful" details="" size="15096109" time="8326" location="/home/florian/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.13.jar">
+					<artifact name="breeze_2.11" type="jar" ext="jar" status="no" details="" size="15096109" time="0" location="/home/florian/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.13.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.11/0.13/breeze_2.11-0.13.jar"/>
 					</artifact>
 				</artifacts>
@@ -145,60 +145,60 @@
 			</revision>
 		</module>
 		<module organisation="org.scalanlp" name="breeze-macros_2.11">
-			<revision name="0.13" status="release" pubdate="20170109050631" resolver="public" artresolver="public" homepage="http://scalanlp.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+			<revision name="0.13" status="release" pubdate="20170109050631" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2180" time="70" location="/home/florian/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.13.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.13/breeze-macros_2.11-0.13.pom"/>
+				<metadata-artifact status="no" details="" size="3150" time="0" location="/home/florian/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.13/breeze-macros_2.11-0.13.pom"/>
 				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="0.13" rev-constraint-default="0.13" rev-constraint-dynamic="0.13" callerrev="0.13"/>
 				<artifacts>
-					<artifact name="breeze-macros_2.11" type="jar" ext="jar" status="successful" details="" size="187880" time="1597" location="/home/florian/.ivy2/cache/org.scalanlp/breeze-macros_2.11/jars/breeze-macros_2.11-0.13.jar">
+					<artifact name="breeze-macros_2.11" type="jar" ext="jar" status="no" details="" size="187880" time="0" location="/home/florian/.ivy2/cache/org.scalanlp/breeze-macros_2.11/jars/breeze-macros_2.11-0.13.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.13/breeze-macros_2.11-0.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-streaming-scala_2.11">
-			<revision name="1.7.0" status="release" pubdate="20181128230555" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+			<revision name="1.7.0" status="release" pubdate="20181128230555" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="10969" time="78" location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-scala_2.11/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-scala_2.11/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.11/1.7.0/flink-streaming-scala_2.11-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="21113" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-scala_2.11/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.11/1.7.0/flink-streaming-scala_2.11-1.7.0.pom"/>
 				<caller organisation="default" name="flink-test_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="flink-streaming-scala_2.11" type="jar" ext="jar" status="successful" details="" size="215369" time="1720" location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-scala_2.11/jars/flink-streaming-scala_2.11-1.7.0.jar">
+					<artifact name="flink-streaming-scala_2.11" type="jar" ext="jar" status="no" details="" size="215369" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-scala_2.11/jars/flink-streaming-scala_2.11-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala_2.11/1.7.0/flink-streaming-scala_2.11-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-streaming-java_2.11">
-			<revision name="1.7.0" status="release" pubdate="20181128230131" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+			<revision name="1.7.0" status="release" pubdate="20181128230131" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5609" time="76" location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-java_2.11/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-java_2.11/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-java_2.11/1.7.0/flink-streaming-java_2.11-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="20020" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-java_2.11/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-java_2.11/1.7.0/flink-streaming-java_2.11-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-scala_2.11" conf="default, compile, runtime, master" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-streaming-java_2.11" type="jar" ext="jar" status="successful" details="" size="963597" time="1174" location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-java_2.11/jars/flink-streaming-java_2.11-1.7.0.jar">
+					<artifact name="flink-streaming-java_2.11" type="jar" ext="jar" status="no" details="" size="963597" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-streaming-java_2.11/jars/flink-streaming-java_2.11-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-java_2.11/1.7.0/flink-streaming-java_2.11-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-clients_2.11">
-			<revision name="1.7.0" status="release" pubdate="20181128230057" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+			<revision name="1.7.0" status="release" pubdate="20181128230057" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="8440" time="77" location="/home/florian/.ivy2/cache/org.apache.flink/flink-clients_2.11/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-clients_2.11/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-clients_2.11/1.7.0/flink-clients_2.11-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="19858" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-clients_2.11/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-clients_2.11/1.7.0/flink-clients_2.11-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-java_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-clients_2.11" type="jar" ext="jar" status="successful" details="" size="134192" time="2081" location="/home/florian/.ivy2/cache/org.apache.flink/flink-clients_2.11/jars/flink-clients_2.11-1.7.0.jar">
+					<artifact name="flink-clients_2.11" type="jar" ext="jar" status="no" details="" size="134192" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-clients_2.11/jars/flink-clients_2.11-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-clients_2.11/1.7.0/flink-clients_2.11-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-optimizer_2.11">
-			<revision name="1.7.0" status="release" pubdate="20181128230027" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+			<revision name="1.7.0" status="release" pubdate="20181128230027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5271" time="73" location="/home/florian/.ivy2/cache/org.apache.flink/flink-optimizer_2.11/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-optimizer_2.11/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-optimizer_2.11/1.7.0/flink-optimizer_2.11-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="19648" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-optimizer_2.11/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-optimizer_2.11/1.7.0/flink-optimizer_2.11-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-clients_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-optimizer_2.11" type="jar" ext="jar" status="successful" details="" size="358768" time="733" location="/home/florian/.ivy2/cache/org.apache.flink/flink-optimizer_2.11/jars/flink-optimizer_2.11-1.7.0.jar">
+					<artifact name="flink-optimizer_2.11" type="jar" ext="jar" status="no" details="" size="358768" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-optimizer_2.11/jars/flink-optimizer_2.11-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-optimizer_2.11/1.7.0/flink-optimizer_2.11-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -281,27 +281,27 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-scala_2.11">
-			<revision name="1.7.0" status="release" pubdate="20181128225622" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+			<revision name="1.7.0" status="release" pubdate="20181128225622" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="13191" time="109" location="/home/florian/.ivy2/cache/org.apache.flink/flink-scala_2.11/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-scala_2.11/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-scala_2.11/1.7.0/flink-scala_2.11-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="23068" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-scala_2.11/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-scala_2.11/1.7.0/flink-scala_2.11-1.7.0.pom"/>
 				<caller organisation="default" name="flink-test_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="0.1"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-scala_2.11" conf="default, compile, runtime, master" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-scala_2.11" type="jar" ext="jar" status="successful" details="" size="821169" time="2947" location="/home/florian/.ivy2/cache/org.apache.flink/flink-scala_2.11/jars/flink-scala_2.11-1.7.0.jar">
+					<artifact name="flink-scala_2.11" type="jar" ext="jar" status="no" details="" size="821169" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-scala_2.11/jars/flink-scala_2.11-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-scala_2.11/1.7.0/flink-scala_2.11-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-runtime_2.11">
-			<revision name="1.7.0" status="release" pubdate="20181128225504" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+			<revision name="1.7.0" status="release" pubdate="20181128225504" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="20490" time="76" location="/home/florian/.ivy2/cache/org.apache.flink/flink-runtime_2.11/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-runtime_2.11/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-runtime_2.11/1.7.0/flink-runtime_2.11-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="25437" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-runtime_2.11/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-runtime_2.11/1.7.0/flink-runtime_2.11-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-java_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-optimizer_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-clients_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-runtime_2.11" type="jar" ext="jar" status="successful" details="" size="12505249" time="9742" location="/home/florian/.ivy2/cache/org.apache.flink/flink-runtime_2.11/jars/flink-runtime_2.11-1.7.0.jar">
+					<artifact name="flink-runtime_2.11" type="jar" ext="jar" status="no" details="" size="12505249" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-runtime_2.11/jars/flink-runtime_2.11-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-runtime_2.11/1.7.0/flink-runtime_2.11-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -332,12 +332,12 @@
 			</revision>
 		</module>
 		<module organisation="org.clapper" name="grizzled-slf4j_2.11">
-			<revision name="1.3.2" status="release" pubdate="20171205005058" resolver="public" artresolver="public" homepage="http://software.clapper.org/grizzled-slf4j/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+			<revision name="1.3.2" status="release" pubdate="20171205005058" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://software.clapper.org/grizzled-slf4j/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
 				<license name="BSD" url="http://software.clapper.org/grizzled-slf4j/license.html"/>
-				<metadata-artifact status="successful" details="" size="1912" time="73" location="/home/florian/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/ivy-1.3.2.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/ivy-1.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.11/1.3.2/grizzled-slf4j_2.11-1.3.2.pom"/>
+				<metadata-artifact status="no" details="" size="2981" time="0" location="/home/florian/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.11/1.3.2/grizzled-slf4j_2.11-1.3.2.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="grizzled-slf4j_2.11" type="jar" ext="jar" status="successful" details="" size="7502" time="913" location="/home/florian/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/jars/grizzled-slf4j_2.11-1.3.2.jar">
+					<artifact name="grizzled-slf4j_2.11" type="jar" ext="jar" status="no" details="" size="7502" time="0" location="/home/florian/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/jars/grizzled-slf4j_2.11-1.3.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.11/1.3.2/grizzled-slf4j_2.11-1.3.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -482,103 +482,103 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-hadoop-fs">
-			<revision name="1.7.0" status="release" pubdate="20181128235622" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+			<revision name="1.7.0" status="release" pubdate="20181128235622" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="8231" time="80" location="/home/florian/.ivy2/cache/org.apache.flink/flink-hadoop-fs/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-hadoop-fs/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.7.0/flink-hadoop-fs-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="24657" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-hadoop-fs/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.7.0/flink-hadoop-fs-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-hadoop-fs" type="jar" ext="jar" status="successful" details="" size="34066" time="1240" location="/home/florian/.ivy2/cache/org.apache.flink/flink-hadoop-fs/jars/flink-hadoop-fs-1.7.0.jar">
+					<artifact name="flink-hadoop-fs" type="jar" ext="jar" status="no" details="" size="34066" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-hadoop-fs/jars/flink-hadoop-fs-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-hadoop-fs/1.7.0/flink-hadoop-fs-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-queryable-state-client-java_2.11">
-			<revision name="1.7.0" status="release" pubdate="20181128225124" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+			<revision name="1.7.0" status="release" pubdate="20181128225124" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="7472" time="73" location="/home/florian/.ivy2/cache/org.apache.flink/flink-queryable-state-client-java_2.11/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-queryable-state-client-java_2.11/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java_2.11/1.7.0/flink-queryable-state-client-java_2.11-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="22811" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-queryable-state-client-java_2.11/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java_2.11/1.7.0/flink-queryable-state-client-java_2.11-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-queryable-state-client-java_2.11" type="jar" ext="jar" status="successful" details="" size="84137" time="1226" location="/home/florian/.ivy2/cache/org.apache.flink/flink-queryable-state-client-java_2.11/jars/flink-queryable-state-client-java_2.11-1.7.0.jar">
+					<artifact name="flink-queryable-state-client-java_2.11" type="jar" ext="jar" status="no" details="" size="84137" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-queryable-state-client-java_2.11/jars/flink-queryable-state-client-java_2.11-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-queryable-state-client-java_2.11/1.7.0/flink-queryable-state-client-java_2.11-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-shaded-guava">
-			<revision name="18.0-5.0" status="release" pubdate="20181010145520" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+			<revision name="18.0-5.0" status="release" pubdate="20181010145520" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1921" time="100" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-guava/ivy-18.0-5.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-guava/ivy-18.0-5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-guava/18.0-5.0/flink-shaded-guava-18.0-5.0.pom"/>
+				<metadata-artifact status="no" details="" size="4280" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-guava/ivy-18.0-5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-guava/18.0-5.0/flink-shaded-guava-18.0-5.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-java_2.11" conf="compile, runtime" rev="18.0-5.0" rev-constraint-default="18.0-5.0" rev-constraint-dynamic="18.0-5.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="18.0-5.0" rev-constraint-default="18.0-5.0" rev-constraint-dynamic="18.0-5.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-optimizer_2.11" conf="compile, runtime" rev="18.0-5.0" rev-constraint-default="18.0-5.0" rev-constraint-dynamic="18.0-5.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-queryable-state-client-java_2.11" conf="compile, runtime" rev="18.0-5.0" rev-constraint-default="18.0-5.0" rev-constraint-dynamic="18.0-5.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-shaded-guava" type="jar" ext="jar" status="successful" details="" size="2424857" time="4020" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-guava/jars/flink-shaded-guava-18.0-5.0.jar">
+					<artifact name="flink-shaded-guava" type="jar" ext="jar" status="no" details="" size="2424857" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-guava/jars/flink-shaded-guava-18.0-5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-guava/18.0-5.0/flink-shaded-guava-18.0-5.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-shaded-netty">
-			<revision name="4.1.24.Final-5.0" status="release" pubdate="20181010145620" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+			<revision name="4.1.24.Final-5.0" status="release" pubdate="20181010145620" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2629" time="72" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-netty/ivy-4.1.24.Final-5.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-netty/ivy-4.1.24.Final-5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-netty/4.1.24.Final-5.0/flink-shaded-netty-4.1.24.Final-5.0.pom"/>
+				<metadata-artifact status="no" details="" size="4327" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-netty/ivy-4.1.24.Final-5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-netty/4.1.24.Final-5.0/flink-shaded-netty-4.1.24.Final-5.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="4.1.24.Final-5.0" rev-constraint-default="4.1.24.Final-5.0" rev-constraint-dynamic="4.1.24.Final-5.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-queryable-state-client-java_2.11" conf="compile, runtime" rev="4.1.24.Final-5.0" rev-constraint-default="4.1.24.Final-5.0" rev-constraint-dynamic="4.1.24.Final-5.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-shaded-netty" type="jar" ext="jar" status="successful" details="" size="4032274" time="4296" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-netty/jars/flink-shaded-netty-4.1.24.Final-5.0.jar">
+					<artifact name="flink-shaded-netty" type="jar" ext="jar" status="no" details="" size="4032274" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-netty/jars/flink-shaded-netty-4.1.24.Final-5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-netty/4.1.24.Final-5.0/flink-shaded-netty-4.1.24.Final-5.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="chill_2.11">
-			<revision name="0.7.6" status="release" pubdate="20170114015811" resolver="public" artresolver="public" homepage="https://github.com/twitter/chill" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+			<revision name="0.7.6" status="release" pubdate="20170114015811" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2373" time="76" location="/home/florian/.ivy2/cache/com.twitter/chill_2.11/ivy-0.7.6.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/com.twitter/chill_2.11/ivy-0.7.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/chill_2.11/0.7.6/chill_2.11-0.7.6.pom"/>
+				<metadata-artifact status="no" details="" size="3172" time="0" location="/home/florian/.ivy2/cache/com.twitter/chill_2.11/ivy-0.7.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/chill_2.11/0.7.6/chill_2.11-0.7.6.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="0.7.6" rev-constraint-default="0.7.6" rev-constraint-dynamic="0.7.6" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="chill_2.11" type="jar" ext="jar" status="successful" details="" size="226933" time="2126" location="/home/florian/.ivy2/cache/com.twitter/chill_2.11/jars/chill_2.11-0.7.6.jar">
+					<artifact name="chill_2.11" type="jar" ext="jar" status="no" details="" size="226933" time="0" location="/home/florian/.ivy2/cache/com.twitter/chill_2.11/jars/chill_2.11-0.7.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/chill_2.11/0.7.6/chill_2.11-0.7.6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="chill-java">
-			<revision name="0.7.6" status="release" pubdate="20170114015933" resolver="public" artresolver="public" homepage="https://github.com/twitter/chill" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+			<revision name="0.7.6" status="release" pubdate="20170114015933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2034" time="78" location="/home/florian/.ivy2/cache/com.twitter/chill-java/ivy-0.7.6.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/com.twitter/chill-java/ivy-0.7.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6.pom"/>
+				<metadata-artifact status="no" details="" size="2890" time="0" location="/home/florian/.ivy2/cache/com.twitter/chill-java/ivy-0.7.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6.pom"/>
 				<caller organisation="com.twitter" name="chill_2.11" conf="compile, runtime" rev="0.7.6" rev-constraint-default="0.7.6" rev-constraint-dynamic="0.7.6" callerrev="0.7.6"/>
 				<artifacts>
-					<artifact name="chill-java" type="jar" ext="jar" status="successful" details="" size="60207" time="727" location="/home/florian/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.7.6.jar">
+					<artifact name="chill-java" type="jar" ext="jar" status="no" details="" size="60207" time="0" location="/home/florian/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.7.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/chill-java/0.7.6/chill-java-0.7.6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-shaded-asm-6">
-			<revision name="6.2.1-5.0" status="release" pubdate="20181010145459" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+			<revision name="6.2.1-5.0" status="release" pubdate="20181010145459" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1973" time="73" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm-6/ivy-6.2.1-5.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm-6/ivy-6.2.1-5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm-6/6.2.1-5.0/flink-shaded-asm-6-6.2.1-5.0.pom"/>
+				<metadata-artifact status="no" details="" size="4369" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm-6/ivy-6.2.1-5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm-6/6.2.1-5.0/flink-shaded-asm-6-6.2.1-5.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-scala_2.11" conf="default, compile, runtime, master" rev="6.2.1-5.0" rev-constraint-default="6.2.1-5.0" rev-constraint-dynamic="6.2.1-5.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-shaded-asm-6" type="jar" ext="jar" status="successful" details="" size="206756" time="1292" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm-6/jars/flink-shaded-asm-6-6.2.1-5.0.jar">
+					<artifact name="flink-shaded-asm-6" type="jar" ext="jar" status="no" details="" size="206756" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm-6/jars/flink-shaded-asm-6-6.2.1-5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm-6/6.2.1-5.0/flink-shaded-asm-6-6.2.1-5.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-java">
-			<revision name="1.7.0" status="release" pubdate="20181128235505" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+			<revision name="1.7.0" status="release" pubdate="20181128235505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5282" time="84" location="/home/florian/.ivy2/cache/org.apache.flink/flink-java/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-java/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="19722" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-java/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-optimizer_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-scala_2.11" conf="default, compile, runtime, master" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-clients_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-java" type="jar" ext="jar" status="successful" details="" size="468751" time="2545" location="/home/florian/.ivy2/cache/org.apache.flink/flink-java/jars/flink-java-1.7.0.jar">
+					<artifact name="flink-java" type="jar" ext="jar" status="no" details="" size="468751" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-java/jars/flink-java-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-java/1.7.0/flink-java-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -604,9 +604,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-core">
-			<revision name="1.7.0" status="release" pubdate="20181128235358" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+			<revision name="1.7.0" status="release" pubdate="20181128235358" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="10852" time="90" location="/home/florian/.ivy2/cache/org.apache.flink/flink-core/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-core/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.7.0/flink-core-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="20826" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-core/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.7.0/flink-core-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-optimizer_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-scala_2.11" conf="default, compile, runtime, master" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
@@ -614,20 +614,20 @@
 				<caller organisation="org.apache.flink" name="flink-clients_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-hadoop-fs" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-core" type="jar" ext="jar" status="successful" details="" size="1344417" time="3256" location="/home/florian/.ivy2/cache/org.apache.flink/flink-core/jars/flink-core-1.7.0.jar">
+					<artifact name="flink-core" type="jar" ext="jar" status="no" details="" size="1344417" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-core/jars/flink-core-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-core/1.7.0/flink-core-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-shaded-jackson">
-			<revision name="2.7.9-5.0" status="release" pubdate="20181010145645" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+			<revision name="2.7.9-5.0" status="release" pubdate="20181010145645" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1346" time="75" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-jackson/ivy-2.7.9-5.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-jackson/ivy-2.7.9-5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-jackson/2.7.9-5.0/flink-shaded-jackson-2.7.9-5.0.pom"/>
+				<metadata-artifact status="no" details="" size="5603" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-jackson/ivy-2.7.9-5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-jackson/2.7.9-5.0/flink-shaded-jackson-2.7.9-5.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="2.7.9-5.0" rev-constraint-default="2.7.9-5.0" rev-constraint-dynamic="2.7.9-5.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-optimizer_2.11" conf="compile, runtime" rev="2.7.9-5.0" rev-constraint-default="2.7.9-5.0" rev-constraint-dynamic="2.7.9-5.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-shaded-jackson" type="jar" ext="jar" status="successful" details="" size="2315580" time="3408" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-jackson/jars/flink-shaded-jackson-2.7.9-5.0.jar">
+					<artifact name="flink-shaded-jackson" type="jar" ext="jar" status="no" details="" size="2315580" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-jackson/jars/flink-shaded-jackson-2.7.9-5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-jackson/2.7.9-5.0/flink-shaded-jackson-2.7.9-5.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -739,48 +739,48 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-shaded-asm">
-			<revision name="5.0.4-5.0" status="release" pubdate="20181010145441" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+			<revision name="5.0.4-5.0" status="release" pubdate="20181010145441" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1909" time="72" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm/ivy-5.0.4-5.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm/ivy-5.0.4-5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm/5.0.4-5.0/flink-shaded-asm-5.0.4-5.0.pom"/>
+				<metadata-artifact status="no" details="" size="4274" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm/ivy-5.0.4-5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm/5.0.4-5.0/flink-shaded-asm-5.0.4-5.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-runtime_2.11" conf="compile, runtime" rev="5.0.4-5.0" rev-constraint-default="5.0.4-5.0" rev-constraint-dynamic="5.0.4-5.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-scala_2.11" conf="default, compile, runtime, master" rev="5.0.4-5.0" rev-constraint-default="5.0.4-5.0" rev-constraint-dynamic="5.0.4-5.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="5.0.4-5.0" rev-constraint-default="5.0.4-5.0" rev-constraint-dynamic="5.0.4-5.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="5.0.4-5.0" rev-constraint-default="5.0.4-5.0" rev-constraint-dynamic="5.0.4-5.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-shaded-asm" type="jar" ext="jar" status="successful" details="" size="270618" time="1162" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm/jars/flink-shaded-asm-5.0.4-5.0.jar">
+					<artifact name="flink-shaded-asm" type="jar" ext="jar" status="no" details="" size="270618" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-shaded-asm/jars/flink-shaded-asm-5.0.4-5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded-asm/5.0.4-5.0/flink-shaded-asm-5.0.4-5.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-metrics-core">
-			<revision name="1.7.0" status="release" pubdate="20181128235250" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+			<revision name="1.7.0" status="release" pubdate="20181128235250" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4676" time="73" location="/home/florian/.ivy2/cache/org.apache.flink/flink-metrics-core/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-metrics-core/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.7.0/flink-metrics-core-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="21348" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-metrics-core/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.7.0/flink-metrics-core-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-metrics-core" type="jar" ext="jar" status="successful" details="" size="17561" time="1139" location="/home/florian/.ivy2/cache/org.apache.flink/flink-metrics-core/jars/flink-metrics-core-1.7.0.jar">
+					<artifact name="flink-metrics-core" type="jar" ext="jar" status="no" details="" size="17561" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-metrics-core/jars/flink-metrics-core-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-metrics-core/1.7.0/flink-metrics-core-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="flink-annotations">
-			<revision name="1.7.0" status="release" pubdate="20181128233724" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+			<revision name="1.7.0" status="release" pubdate="20181128233724" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4025" time="84" location="/home/florian/.ivy2/cache/org.apache.flink/flink-annotations/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/flink-annotations/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.7.0/flink-annotations-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="19024" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-annotations/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.7.0/flink-annotations-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="flink-annotations" type="jar" ext="jar" status="successful" details="" size="13401" time="1141" location="/home/florian/.ivy2/cache/org.apache.flink/flink-annotations/jars/flink-annotations-1.7.0.jar">
+					<artifact name="flink-annotations" type="jar" ext="jar" status="no" details="" size="13401" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/flink-annotations/jars/flink-annotations-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-annotations/1.7.0/flink-annotations-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.flink" name="force-shading">
-			<revision name="1.7.0" status="release" pubdate="20181128233702" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+			<revision name="1.7.0" status="release" pubdate="20181128233702" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3377" time="89" location="/home/florian/.ivy2/cache/org.apache.flink/force-shading/ivy-1.7.0.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.apache.flink/force-shading/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/force-shading/1.7.0/force-shading-1.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3676" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/force-shading/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/force-shading/1.7.0/force-shading-1.7.0.pom"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-java_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-optimizer_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-annotations" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
@@ -795,7 +795,7 @@
 				<caller organisation="org.apache.flink" name="flink-clients_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-scala_2.11" conf="default, compile, runtime, master" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="force-shading" type="jar" ext="jar" status="successful" details="" size="7313" time="963" location="/home/florian/.ivy2/cache/org.apache.flink/force-shading/jars/force-shading-1.7.0.jar">
+					<artifact name="force-shading" type="jar" ext="jar" status="no" details="" size="7313" time="0" location="/home/florian/.ivy2/cache/org.apache.flink/force-shading/jars/force-shading-1.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/force-shading/1.7.0/force-shading-1.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -826,9 +826,9 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.15" status="release" pubdate="20160209172958" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+			<revision name="1.7.15" status="release" pubdate="20160209172958" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="2775" time="73" location="/home/florian/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.15.xml" searched="true" original-local-location="/home/florian/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.15.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.pom"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/florian/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.pom"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-java_2.11" conf="compile, runtime" rev="1.7.15" rev-constraint-default="1.7.15" rev-constraint-dynamic="1.7.15" callerrev="1.7.0"/>
 				<caller organisation="org.clapper" name="grizzled-slf4j_2.11" conf="compile, runtime" rev="1.7.9" rev-constraint-default="1.7.9" rev-constraint-dynamic="1.7.9" callerrev="1.3.2"/>
 				<caller organisation="org.apache.flink" name="flink-optimizer_2.11" conf="compile, runtime" rev="1.7.15" rev-constraint-default="1.7.15" rev-constraint-dynamic="1.7.15" callerrev="1.7.0"/>
@@ -846,7 +846,7 @@
 				<caller organisation="org.scalanlp" name="breeze_2.11" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.13"/>
 				<caller organisation="org.apache.flink" name="flink-streaming-scala_2.11" conf="default, compile, runtime, master" rev="1.7.15" rev-constraint-default="1.7.15" rev-constraint-dynamic="1.7.15" callerrev="1.7.0"/>
 				<artifacts>
-					<artifact name="slf4j-api" type="jar" ext="jar" status="successful" details="" size="40502" time="949" location="/home/florian/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.15.jar">
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="40502" time="0" location="/home/florian/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.15.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.15/slf4j-api-1.7.15.jar"/>
 					</artifact>
 				</artifacts>
