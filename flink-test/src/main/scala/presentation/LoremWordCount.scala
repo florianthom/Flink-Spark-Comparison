@@ -17,16 +17,25 @@ import org.apache.flink.streaming.api.functions.sink.DiscardingSink
 
 case class WordWithCount(word:String,count:Long)
 
-
-
 class LoremWordCount {
       val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment   // StreamExecutionEnvironment.createRemoteEnvironment("192.168.56.160", 6123);
       env.setParallelism(4)
-      val text: DataStream[String] = env.readTextFile("/home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/data/lorem/simple.txt",StandardCharsets.UTF_8.name())
-      //val text: DataStream[String] = env.readTextFile("../data/lipsum_short.txt",StandardCharsets.UTF_8.name())
-      text.flatMap(w => w.split("\\s")).map(w => WordWithCount(w, 1)).keyBy("word").sum("count").addSink(new DiscardingSink[WordWithCount]()) //.setParallelism(1) // single threaded
+      val text: DataStream[String] = env.readTextFile("/home/florian/Desktop/FlinkSparkComparison/Flink-Spark-Comparison/data/lorem/2000size",StandardCharsets.UTF_8.name())
+      text
+        .flatMap(line => line
+            .toLowerCase()
+            .replaceAll(",", " ")
+            .replaceAll(".", " ")
+            .split("\\s"))
+        .map(w => WordWithCount(w, 1))
+        .keyBy("word")
+        .sum("count")
+        
+        .addSink(new DiscardingSink[WordWithCount]()) //.setParallelism(1) // single threaded
       env.execute()
 }
 
 class Sink[T] extends SinkFunction[T] {
 }
+
+      //val text: DataStream[String] = env.readTextFile("../data/lipsum_short.txt",StandardCharsets.UTF_8.name())

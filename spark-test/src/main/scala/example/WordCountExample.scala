@@ -9,7 +9,7 @@ object WordCountExample
 {
   def split(line: String): Array[String] =
   {
-    line.toLowerCase().replaceAll(",", " ").split(" ")
+    line.toLowerCase().replaceAll(",", " ").replaceAll(".", " ").split(" ")
   }
   
   def run(spark: SparkSession, path: String) =

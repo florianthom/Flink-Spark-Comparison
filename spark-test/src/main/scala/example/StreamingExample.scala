@@ -11,9 +11,9 @@ object StreamingExample extends App
   val conf= new SparkConf()
     .setMaster("local[4]")
     .setAppName("StreamingExample")
-    .set("spark.executor.memory","2g")
+    .set("spark.executor.memory","4g")
     .set("spark.storage.memoryFraction","0.8")
-    .set("spark.driver.memory", "2g")
+    .set("spark.driver.memory", "4g")
   val spark = SparkSession.builder().appName("SparkTest").config(conf).getOrCreate()
   val sc = spark.sparkContext
   
@@ -21,8 +21,8 @@ object StreamingExample extends App
   val movey = new Thread {
     override def run {
       Thread.sleep(4000)
-      "touch ../data/lipsum_short.txt".run()
-      "mv ../data/lipsum_short.txt ../data/streaming/lipsum_moved_short.txt".run()
+      "touch ../data/lorem/2000size".run()
+      "mv ../data/lorem/2000size ../data/streaming/lipsum_moved_short.txt".run()
     }
   }
   
@@ -37,7 +37,7 @@ object StreamingExample extends App
   sc.stop()
   
   movey.join()
-  "mv ../data/streaming/lipsum_moved_short.txt ../data/lipsum_short.txt".run()
+  "mv ../data/streaming/lipsum_moved_short.txt ../data/lorem/2000size".run()
   
   
   /*
